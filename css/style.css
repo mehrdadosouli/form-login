@@ -1,0 +1,27 @@
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    box-shadow: 0 0 0.5rem 0 ;
+    height: 25rem;
+}
+input{
+    border: none;
+    outline-style: none;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 7%;
+}
+.form-footer{
+    display: flex;
+    align-items: center;
+}

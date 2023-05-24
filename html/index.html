@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login form</title>
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    
+    <div class="forms">
+        <form action="#" class="form">
+          <span class="form-header">Login</span>
+          <input type="text" id="username" placeholder=" نام و نام خانوادگی">
+          <input type="text" id="useremail" placeholder="ایمیل">
+          <input type="password" id="password" placeholder="پسورد">
+          <input type="submit" id="submit">
+          <div class="form-footer">
+            <div class="form-footer__rememberMe">
+              <label for="form-footer__rememberMe-text" class="form-footer__rememberMe-text">Remember Me</label for="form-footer__rememberMe-text">
+              <input type="checkbox" name="rememberMe" id="form-footer__rememberMe-text">
+            </div>
+            <span class="form-footer__signUp">
+              <a href="#" class="form-footer__signUp-link">Sign Up</a>
+            </span>
+          </div>
+        </form>
+    </div>
     <script src="../js/script.js"></script>
   </body>
 </html>
