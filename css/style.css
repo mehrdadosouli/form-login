@@ -36,6 +36,7 @@
 }
 
 #submit {
+  cursor: pointer;
   background-color: #298ee6;
   border-radius: 1.5rem;
   color: white;
