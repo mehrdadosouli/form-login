@@ -1,6 +1,15 @@
 * {
   direction: rtl;
 }
+@font-face {
+  font-family: "iransans";
+  src: url("../utils/IRANSans/IRANSans.ttf");
+  font-family: "iransans-bold";
+  src: url("../utils/IRANSans/IRANSans_Bold.ttf");
+}
+body{
+  font-family: "iransans";
+}
 .forms {
   display: flex;
   justify-content: center;

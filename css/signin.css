@@ -1,6 +1,15 @@
 * {
     direction: rtl;
   }
+  @font-face {
+    font-family: "iransans";
+    src: url("../utils/IRANSans/IRANSans.ttf");
+    font-family: "iransans-bold";
+    src: url("../utils/IRANSans/IRANSans_Bold.ttf");
+  }
+  body{
+    font-family: "iransans";
+  }
   .forms {
     display: flex;
     justify-content: center;
@@ -56,6 +65,7 @@
     margin: 0.4rem 0;
   }
   .form-header{
+    font-family: "iransans-bold";
     font-weight: bold;
     font-size: 2rem;
     border-bottom: 2px solid #f2f2f2;
@@ -73,5 +83,8 @@
     font-size: 1.1rem;
     text-decoration: none;
     color: #63779C;
+  }
+  .form-footer__signUp-link,#form-footer__rememberMe-text{
+    font-family: "iransans-bold";
   }
   

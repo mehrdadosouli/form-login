@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>wellcome</h1>
+    <h1 id="h1"></h1>
+    <script>
+        const elem=document.querySelector('#h1');
+        window.addEventListener('load',()=>{
+            geting()
+        })
+        const geting=async()=>{
+            const getuserinfo=await JSON.parse(localStorage.getItem('userInfo'));
+            console.log(getuserinfo);
+            elem.innerHTML=`wellcome ${getuserinfo.username}`
+        }
+    </script>
 </body>
 </html>
